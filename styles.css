@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #FFFF;
+}
+.logo{
+    margin-right: 3rem;
+    letter-spacing: 0.5rem;
+}
+/* header style*/
+header{
+    background-color: rgb(39, 38, 38);
+    color: #FFFF;
+    max-width: 100%;
+}
+header .container{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+header .lists-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+header .icon-list-header{
+    margin-right: 2rem;
+}
+header .menu-header{
+    display: none;
+}
+/*main*/
+main .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .top-main{
+    padding: 1rem 2rem;
+    text-align: center;
+}
+main .top-main h1{
+    font-size: 8rem;
+    letter-spacing: 0.5rem;
+}
+main .top-main h1 span{
+    color: rgb(211, 166, 83);
+}
+main .top-main p{
+    font-size: 4rem;
+}
+main .top-main img{
+    width: 15rem;
+    height: 15rem;
+}
+main .middle-top-main{
+    padding: 3rem 2rem;
+    background-color: rgb(201, 201, 201);
+}
+main .middle-top-main .about-me{
+    text-align: center;
+    padding: 1rem 5rem;
+}
+main .middle-top-main .about-me p{
+    margin-top: 2rem;
+}
+main .middle-bottom-main{
+    padding: 3rem 2rem;
+    text-align: center;
+}
+main .middle-bottom-main .list-proyek{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 2rem;
+}
+main .list-proyek .item-list-proyek{
+    width: 30%;
+    padding: 0.5rem;
+    position: relative;
+}
+main .item-list-proyek img{
+    width: 90%;
+    box-shadow: 10px 7px 16px -2px rgba(0,0,0,0.44);
+    -webkit-box-shadow: 10px 7px 16px -2px rgba(0,0,0,0.44);
+    -moz-box-shadow: 10px 7px 16px -2px rgba(0,0,0,0.44);
+}
+main .item-list-proyek p{
+    margin-top: 1rem;
+    font-size: 18px;
+}
+main form{
+    background-color: rgb(201, 201, 201);
+}
+main form .form{
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main form .form h2{
+    padding-bottom: 1rem;
+}
+main form .form-main{
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    width: 50%;
+    border: 1px solid white;
+    background-color: #FFFF;
+    border-radius: 0.5rem;
+}
+main form .btn-send{
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    width: 25%;
+    border: 1px solid rgb(235, 231, 0);
+    background-color: rgb(235, 231, 0);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+/*footer*/
+footer{
+    background-color: rgb(39, 38, 38);
+    color: #FFFF;
+    height: 30%;
+}
+footer .container{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer .container .icon-list-footer{
+    margin-bottom: 1rem;
+}
+

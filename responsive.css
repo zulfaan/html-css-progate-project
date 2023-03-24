@@ -1,0 +1,46 @@
+@media (max-width: 770px){
+    header .container{
+        justify-content: space-between;
+    }
+    header .list-header{
+        display: none;
+    }
+    header .menu-header{
+        display: block;
+        font-size: 2rem;
+    }
+    header .menu-header span{
+        cursor: pointer;
+    }
+    main .top-main h1{
+        font-size: 5rem;
+    }
+    main .top-main p{
+        font-size: 2rem;
+    }
+    main .middle-top-main .about-me{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    main .middle-bottom-main .item-list-proyek{
+        width: 50%;
+    }
+}
+@media (max-width: 450px){
+    main .middle-bottom-main .item-list-proyek{
+        width: 80%;
+    }
+    main form .form-main{
+        width: 80%;
+    }
+    main form .btn-send{
+        width: 65%;
+    }
+    footer .container{
+        flex-direction: column;
+        justify-content: left;
+    }
+    footer .container .icon-list-footer{
+        margin-left: 0;
+    }
+}
